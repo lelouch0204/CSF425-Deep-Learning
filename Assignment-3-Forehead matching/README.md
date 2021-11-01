@@ -11,4 +11,5 @@ The extraction for the region of interest was done manually. The users had to al
 
 ### Image Enhancement
 CLAHE (Const Limited Adaptive Histogram Equalization) was used to convert the pictures to grayscale. The CLAHE method outperforms the conventional histogram equalization method. CLAHE is a version of adaptive histogram equalization (AHE) that corrects for contrast overamplification. CLAHE works by dividing the image into tiles, which are tiny areas of a picture rather than the full image. To remove the false borders, the nearby tiles are merged using bilinear interpolation. It was found that using CLAHE gave better results than the normal histogram equalization methods, and as a whole these preprocessing techniques gave a better result than using the default RGB images, as wrinkles seemed to be enhanced using these methods.
-![before](Images/Img1.png)
+
+![before](Images/Img1.png) ![after](Images/img2.png)
